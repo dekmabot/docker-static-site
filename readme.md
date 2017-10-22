@@ -1,6 +1,6 @@
 # Laravel Docker Image
 
-Docker image to run Laravel sites with or without ssl.
+Docker image to run Laravel sites without ssl.
 
 ## Use
 
