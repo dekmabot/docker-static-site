@@ -16,7 +16,7 @@ RUN usermod -u 1000 www-data
 
 ADD laravel.ini /usr/local/etc/php/conf.d
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
-ADD nginx-host.conf /etc/nginx/sites-enabled/
+ADD nginx-host.conf /etc/nginx/sites-enabled/default
 
 WORKDIR /var/www/laravel
  
