@@ -15,7 +15,7 @@ RUN mkdir -p /var/run/sshd /var/log/supervisor
  
 RUN usermod -u 1000 www-data
 
-ADD laravel.ini /usr/local/etc/php/conf.d
+ADD php-laravel.conf /etc/php/7.0/fpm/pool.d/laravel.conf
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 ADD nginx-host.conf /etc/nginx/sites-enabled/default
 
