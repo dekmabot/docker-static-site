@@ -21,6 +21,6 @@ ADD nginx-host.conf /etc/nginx/sites-enabled/default
 
 WORKDIR /var/www/laravel
  
-EXPOSE 22 80 443
+EXPOSE 22 80
  
 CMD ["/usr/bin/supervisord"]
