@@ -1,13 +1,13 @@
-# Laravel Docker Image
+# Static site in Docker container
 
-Docker image to run Laravel sites without ssl.
+Docker image to host static html sites.
 
 ## Use
 
 You may use this image like this:
  
 ```bash
-docker run -d --name laravel dekmabot/docker-laravel
+docker run -d --name static-site dekmabot/docker-static-site
 ```
 
 ## License
